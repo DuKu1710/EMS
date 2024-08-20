@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.LoginForm">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="528" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15589403"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="4215b" binding="LeftPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16694940"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="53280" class="javax.swing.JLabel" binding="lblWelcome">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="28" style="1"/>
+              <foreground color="-16318206"/>
+              <text value="DARK X"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="71c48" binding="RightPanel" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e524b" class="javax.swing.JLabel" binding="lblIcon">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <horizontalAlignment value="11"/>
+              <icon value="image/Login.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <grid id="feede" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1ca22" class="javax.swing.JButton" binding="btnLogin">
+                <constraints/>
+                <properties>
+                  <text value="Login"/>
+                </properties>
+              </component>
+              <hspacer id="d05ad">
+                <constraints/>
+              </hspacer>
+              <component id="e8d0a" class="javax.swing.JButton" binding="btnCancel">
+                <constraints/>
+                <properties>
+                  <text value="Cancel"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="78714" class="javax.swing.JLabel" binding="lblPassword">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="ddbfd"/>
+              <text value="Password"/>
+            </properties>
+          </component>
+          <component id="ddbfd" class="javax.swing.JPasswordField" binding="txtPassword">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="70f2" class="javax.swing.JLabel" binding="lblMsg">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Input Password"/>
+            </properties>
+          </component>
+          <component id="302d7" class="javax.swing.JLabel" binding="lblUserName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="e4496"/>
+              <text value="Username"/>
+            </properties>
+          </component>
+          <component id="e4496" class="javax.swing.JTextField" binding="txtUserName">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="2c75f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15589403"/>
+          <foreground color="-1755872"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5654b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="24" style="1"/>
+              <foreground color="-16318206"/>
+              <text value="Employee Management System" noi18n="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="c61db" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lim BunTheng &amp; Yun Bunna"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
